@@ -1,0 +1,31 @@
+% Example_03: Vectors II
+
+% Assigning arrays and performing various special functions 
+
+%% Example{01}: Assign variable "x" to a vector with 2, 5, 13, 7, 10, 8, 2 using the type-in method. 
+
+x = [2 5 13 7 10 8 2];
+
+%% Example{02}: Find the mean, minimum, and maximum values of x
+
+mean_x = mean(x); 
+min_x = min(x);
+max_x = max(x);
+
+%% Example{03}: Square x. Find the square root of x. 
+
+sqrt_x = sqrt(x);
+x_squared = x.^2;
+
+%% Example{04}: Assign variable 'y' to an array of seven evenly spaced numbers between 2 and 14.
+
+y = linspace(2,14,7);
+
+%% Example{05}: Use a logical array to determine where x and y are equal.  
+
+result = x==y;
+
+
+
+
+
